@@ -160,7 +160,7 @@
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <ul class="nav nav-tabs notika-menu-wrap menu-it-icon-pro">
-              <li class="active">
+              <li>
                 <a href="index.html"
                   ><i class="notika-icon notika-windows"></i> Today Work</a
                 >
@@ -172,7 +172,7 @@
                   <span class="text-danger">(20)</span></a
                 >
               </li>
-              <li>
+              <li class="active">
                 <a href="reports.html"
                   ><i class="notika-icon notika-chat"></i> Reports
                 </a>
@@ -192,127 +192,269 @@
     <!-- steep form start -->
     <section class="signup-step-container">
       <div class="container">
-        <div class="row d-flex justify-content-center">
-          <div class="col-md-12">
-            <form action="">
-              <div class="row mg-t-20">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mg-b-15">
-                  <div class="form-element-list">
-                    <div class="row">
-                      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 mb-4">
-                        <div class="form-group">
-                          <label style="font-size: 12px">Bill No</label>
-                          <div class="nk-int-st">
-                            <input
-                              type="text"
-                              class="form-control input-sm"
-                              placeholder="Bill No"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 mb-4">
-                        <div class="form-group">
-                          <label style="font-size: 12px">Shirt Qty</label>
-                          <div class="nk-int-st">
-                            <input
-                              type="text"
-                              class="form-control input-sm"
-                              placeholder="qty"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 mb-4">
-                        <div class="form-group">
-                          <label style="font-size: 12px">Pant Qty</label>
-                          <div class="nk-int-st">
-                            <input
-                              type="text"
-                              class="form-control input-sm"
-                              placeholder="qty"
-                            />
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 mb-4">
-                        <ul class="list-inline pull-right">
-                          <li>
-                            <button type="button" class="default-btn next-step">
-                              Save
-                            </button>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
+        <div class="row">
+          <div class="col-lg-3 col-xs-6 mg-b-15">
+            <div
+              class="card bg-info"
+              data-toggle="modal"
+              data-target="#myModalthree"
+              style="cursor: pointer"
+            >
+              <div
+                style="
+                  border: 1px dotted #000;
+                  padding: 10px;
+                  text-align: center;
+                "
+              >
+                <div class="mg-b-15">
+                  <i class="notika-icon notika-calendar fa-2x"></i>
                 </div>
-                <div
-                  class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
-                  style="background: #fff; padding: 20px"
-                >
-                  <div class="row">
-                    <div class="col-lg-4 col-xs-6">
-                      <div class="form-group">
-                        <div class="nk-int-st">
-                          <input
-                            type="search"
-                            class="form-control input-sm"
-                            placeholder="Search ..."
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="normal-table-list">
-                    <div class="bsc-tbl-bdr">
-                      <table class="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>#</th>
-                            <th>Bill No.</th>
-                            <th>Shirt Qty</th>
-                            <th>Pant Qty</th>
-                            <th>Date</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>8081</td>
-                            <td>10</td>
-                            <td>10</td>
-                            <td>19/11/2024 | 11:00 AM</td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>8082</td>
-                            <td>20</td>
-                            <td>20</td>
-                            <td>20/11/2024 | 12:00 AM</td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>8083</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>21/11/2024 | 01:00 AM</td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>8084</td>
-                            <td>50</td>
-                            <td>50</td>
-                            <td>22/11/2024 | 11:00 AM</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
+                <h3>Jan</h3>
               </div>
-            </form>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-xs-6 mg-b-15">
+            <div
+              class="card bg-success"
+              data-toggle="modal"
+              data-target="#myModalthree"
+              style="cursor: pointer"
+            >
+              <div
+                style="
+                  border: 1px dotted #000;
+                  padding: 10px;
+                  text-align: center;
+                "
+              >
+                <div class="mg-b-15">
+                  <i class="notika-icon notika-calendar fa-2x"></i>
+                </div>
+                <h3>Feb</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-xs-6 mg-b-15">
+            <div
+              class="card bg-danger"
+              data-toggle="modal"
+              data-target="#myModalthree"
+              style="cursor: pointer"
+            >
+              <div
+                style="
+                  border: 1px dotted #000;
+                  padding: 10px;
+                  text-align: center;
+                "
+              >
+                <div class="mg-b-15">
+                  <i class="notika-icon notika-calendar fa-2x"></i>
+                </div>
+                <h3>March</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-xs-6 mg-b-15">
+            <div
+              class="card bg-info"
+              data-toggle="modal"
+              data-target="#myModalthree"
+              style="cursor: pointer"
+            >
+              <div
+                style="
+                  border: 1px dotted #000;
+                  padding: 10px;
+                  text-align: center;
+                "
+              >
+                <div class="mg-b-15">
+                  <i class="notika-icon notika-calendar fa-2x"></i>
+                </div>
+                <h3>April</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-xs-6 mg-b-15">
+            <div
+              class="card bg-light"
+              data-toggle="modal"
+              data-target="#myModalthree"
+              style="cursor: pointer"
+            >
+              <div
+                style="
+                  border: 1px dotted #000;
+                  padding: 10px;
+                  text-align: center;
+                "
+              >
+                <div class="mg-b-15">
+                  <i class="notika-icon notika-calendar fa-2x"></i>
+                </div>
+                <h3>May</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-xs-6 mg-b-15">
+            <div
+              class="card bg-info"
+              data-toggle="modal"
+              data-target="#myModalthree"
+              style="cursor: pointer"
+            >
+              <div
+                style="
+                  border: 1px dotted #000;
+                  padding: 10px;
+                  text-align: center;
+                "
+              >
+                <div class="mg-b-15">
+                  <i class="notika-icon notika-calendar fa-2x"></i>
+                </div>
+                <h3>June</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-xs-6 mg-b-15">
+            <div
+              class="card bg-dark"
+              data-toggle="modal"
+              data-target="#myModalthree"
+              style="cursor: pointer"
+            >
+              <div
+                style="
+                  border: 1px dotted #000;
+                  padding: 10px;
+                  text-align: center;
+                "
+              >
+                <div class="mg-b-15">
+                  <i class="notika-icon notika-calendar fa-2x"></i>
+                </div>
+                <h3>July</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-xs-6 mg-b-15">
+            <div
+              class="card bg-danger"
+              data-toggle="modal"
+              data-target="#myModalthree"
+              style="cursor: pointer"
+            >
+              <div
+                style="
+                  border: 1px dotted #000;
+                  padding: 10px;
+                  text-align: center;
+                "
+              >
+                <div class="mg-b-15">
+                  <i class="notika-icon notika-calendar fa-2x"></i>
+                </div>
+                <h3>Aug</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-xs-6 mg-b-15">
+            <div
+              class="card bg-warning"
+              data-toggle="modal"
+              data-target="#myModalthree"
+              style="cursor: pointer"
+            >
+              <div
+                style="
+                  border: 1px dotted #000;
+                  padding: 10px;
+                  text-align: center;
+                "
+              >
+                <div class="mg-b-15">
+                  <i class="notika-icon notika-calendar fa-2x"></i>
+                </div>
+                <h3>Sept</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-xs-6 mg-b-15">
+            <div
+              class="card btn-group-lg"
+              data-toggle="modal"
+              data-target="#myModalthree"
+              style="cursor: pointer"
+            >
+              <div
+                style="
+                  border: 1px dotted #000;
+                  padding: 10px;
+                  text-align: center;
+                "
+              >
+                <div class="mg-b-15">
+                  <i class="notika-icon notika-calendar fa-2x"></i>
+                </div>
+                <h3>Oct</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-xs-6 mg-b-15">
+            <div
+              class="card bg-info"
+              data-toggle="modal"
+              data-target="#myModalthree"
+              style="cursor: pointer"
+            >
+              <div
+                style="
+                  border: 1px dotted #000;
+                  padding: 10px;
+                  text-align: center;
+                "
+              >
+                <div class="mg-b-15">
+                  <i class="notika-icon notika-calendar fa-2x"></i>
+                </div>
+                <h3>Nov</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-xs-6 mg-b-15">
+            <div
+              class="card bg-warning"
+              data-toggle="modal"
+              data-target="#myModalthree"
+              style="cursor: pointer"
+            >
+              <div
+                style="
+                  border: 1px dotted #000;
+                  padding: 10px;
+                  text-align: center;
+                "
+              >
+                <div class="mg-b-15">
+                  <i class="notika-icon notika-calendar fa-2x"></i>
+                </div>
+                <h3>Dec</h3>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -322,6 +464,62 @@
     <!-- Start Footer area-->
 
     <!-- End Footer area-->
+
+    <!-- modal start -->
+    <div class="modal fade" id="myModalthree" role="dialog">
+      <div class="modal-dialog modal-large">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">×</button>
+          </div>
+          <div class="modal-body">
+            <h2>Monthly Report</h2>
+            <div class="normal-table-list">
+              <div class="bsc-tbl-bdr">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Month</th>
+                      <th>Shirt Qty</th>
+                      <th>Pant Qty</th>
+                      <th>Total Qty</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Jan 2024</td>
+                      <td>500</td>
+                      <td>400</td>
+
+                      <td>
+                        <span class="badge bg-success">900</span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-default waves-effect"
+              data-dismiss="modal"
+            >
+              Save changes
+            </button>
+            <button
+              type="button"
+              class="btn btn-default waves-effect"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal end -->
 
     <!-- jquery
 		============================================ -->
